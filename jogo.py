@@ -88,9 +88,7 @@ class Velha:
 
             print('\n Jogador ', self._jogador)
             posicao = input('Digite a posição')
-            print(posicao[0],posicao[1])
-
-            input()
+            
 
             if self._tabuleiro.jogada(posicao,self._jogador):
                 break
